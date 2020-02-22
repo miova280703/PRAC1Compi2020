@@ -1,0 +1,35 @@
+digraph grafica{
+rankdir=LR;
+node [shape=circle, style=filled, color=khaki1, fontcolor=black];
+nodo17 [ label ="."];
+nodo1 [ label ="."];
+nodo1 [ label ="+"];
+nodo1 [ label ="digito"];
+nodo1->nodo1
+nodo1->nodo1
+nodo1 [ label ="+"];
+nodo1 [ label ="."];
+nodo1 [ label ="|"];
+nodo1 [ label ="+"];
+nodo1 [ label ="|"];
+nodo1 [ label ="-"];
+nodo1->nodo1
+nodo1 [ label ="|"];
+nodo1 [ label ="*"];
+nodo1 [ label ="/"];
+nodo1->nodo1
+nodo1->nodo1
+nodo1 [ label ="+"];
+nodo1 [ label ="digito"];
+nodo1->nodo1
+nodo1->nodo1
+nodo1->nodo1
+nodo1->nodo1
+nodo1->nodo1
+nodo1 [ label ="#"];
+nodo1->nodo1
+nodo1->nodo1
+nodo1->nodo1
+nodo1->nodo1
+nodo17->nodo1
+}
